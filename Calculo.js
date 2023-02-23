@@ -21,7 +21,7 @@ var valorMinimo = Math.min(...arr)
 console.log("valor máximo:", valorMaximo);
 console.log("valor mínimo:", valorMinimo);
 
-
+//Soma de todos os multiplos
 
 function somaTotal() {
     let soma = 0;
