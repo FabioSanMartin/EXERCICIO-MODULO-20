@@ -7,3 +7,5 @@ var valorMaximo = Math.max(...arr)
 var valorMinimo = Math.min(...arr)
 console.log("valor máximo:", valorMaximo);
 console.log("valor mínimo:", valorMinimo);
+
+module.exports = { arr, numeros, valorMaximo, valorMinimo };

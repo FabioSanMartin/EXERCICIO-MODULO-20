@@ -12,3 +12,5 @@ function somaTotal() {
   
   const resultadoSoma = somaTotal();
   console.log(` ${resultadoSoma}.`);
+
+  module.exports = somaTotal;

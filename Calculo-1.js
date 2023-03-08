@@ -1,6 +1,6 @@
 //Calcular o MDC entre dois numeros
 
-function mdc(a =24, b = 48) {
+function mdc(a =36, b = 48) {
     while (b !== 0) {
       let temp = a;
       a = b;
@@ -9,4 +9,6 @@ function mdc(a =24, b = 48) {
     return a;
   }
   console.log(mdc(36, 48));
+
+  module.exports = mdc;
  
